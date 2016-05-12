@@ -1,8 +1,8 @@
 'use strict';
 
-exports.type = 'greet';
-
 const greet = module.exports = function() {
-  let name = 'Mars'
+  let name = process.argv[2] || 'Mars'
   return 'Hello ' + name;
 };
+
+console.log(greet());

@@ -6,6 +6,7 @@
   "dependancies": {
     "gulp": "3.9.1",
     "chai": "3.5.0",
-    "mocha": "2.4.0"
+    "mocha": "2.4.0",
+    "eslint": "2.9.0"
   }
 }
